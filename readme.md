@@ -115,9 +115,9 @@ See also the common problems and troubleshoots [here](troubleshoot.md).
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) | Fooocus Official
 
-!!!!The current version has CuPy conflicts. Run it in Google Colab using the following code:
-import os
+The current version has CuPy conflicts. Run it in Google Colab using the following code:
 
+import os
 !pip install pygit2==1.15.1
 %cd /content
 !git clone https://github.com/lllyasviel/Fooocus.git
